@@ -1,0 +1,43 @@
+@import 'global';
+@import 'header';
+@import 'footer';
+
+#logo {
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+#main_container {
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr;  
+}
+.button {
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        border-radius: 25px;
+        opacity: 75%;
+   }
+
+#login_button {
+ background-color: #DDB38F;   
+}
+
+#create_account {
+    background-color: black;
+    align-self: start;
+}
